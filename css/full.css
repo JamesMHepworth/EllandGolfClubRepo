@@ -1,0 +1,60 @@
+
+.full {
+    background: url('../img/victory-heights-dubai-hero-1900x500.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.pull-center {
+text-align: center;
+margin: 0 auto !important;
+}
+
+.row-fluid {
+width: 100%;
+}
+
+.container {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+ 
+}
+
+.footer{
+	height: 50px; 
+	background: transparent;
+	position: absolute; 
+	bottom: 3px; 
+	width: 100%;
+	text-align: center;  
+}
+
+p {
+    margin-bottom: 0;
+    color: white;
+    font-family: 'Gudea', sans-serif;
+}
+
+  @media only screen and (min-width : 320px) {
+     .full{
+         /*Can add a smaller logo image to be used aswell */
+         /*http://www.smashingmagazine.com/2010/07/19/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website */
+         width:500px;
+         height:500px;
+     }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+      .full{
+         width:500px;
+         height:500px;
+     }
+    }
